@@ -96,7 +96,7 @@
 .Text{
     color: transparent;
     border: none;
-    border-bottom: solid 1px;
+    border-bottom: solid 1px black;
     padding: 1rem;
 
 }
