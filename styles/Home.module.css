@@ -1,0 +1,28 @@
+.ContainerAll{
+    padding: 1rem 3rem;
+    height: 94vh;
+}
+
+.ContainerBtn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.btn{
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background: transparent;
+    
+}
+
+
+.img:hover{
+    width: 300px;
+}
+

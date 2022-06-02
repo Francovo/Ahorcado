@@ -1,0 +1,110 @@
+.ContainerWord{
+    padding: 1rem 3rem;
+}
+
+
+.ContainerInput{
+    padding: 2rem 2rem 0 2rem;
+    justify-content: center;
+}
+
+.Input{
+    padding: 1rem;
+    font-size: 30px;
+    width: 78%;
+    color: #0A3871;
+    height: 60vh;
+    resize: none;
+    border: solid;
+    margin: 0 10%;
+    text-transform: uppercase;
+}::placeholder{
+    color: #0A3871;
+    font-size: 30px;
+}
+
+.InputButtons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.BtnEncriptar{
+    cursor: pointer;
+    width: 500px;
+    height: 3.5rem;
+    background-color: #0A3871;
+    color: white;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.BtnDesEncriptar{
+    border: solid 1px #0A3871;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 3.5rem;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ContainerOculto{
+    display: none;
+}
+
+
+
+/* GAME */
+
+.Game{
+    padding: 1rem 3rem;
+}
+
+.ContainerImg{
+    height: 45vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ContainerTextAhorcado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.InputGame{
+    padding: .5rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.InputGame::placeholder{
+    display: flex;
+    color:#0A3871;
+    font-size: 15px;
+}
+
+.Text{
+    color: transparent;
+    border: none;
+    border-bottom: solid 1px;
+    padding: 1rem;
+
+}
+
+.TextColor{
+    color: black;
+}
+
+
+
+

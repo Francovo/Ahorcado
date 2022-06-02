@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/styles/Game.module.css"
+      media="screen"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Container">
+      <div>
+        <img src="/images/a.png" alt="" />
+      </div>
+      <div class="ContainerAhorcado">
+        <div class="ContainerImg">
+          <img height="400px" width="10px" src="/images/Base2.png" />
+          <img width="240px" height="8px" src="/images/Cuerda.png" />
+          <img height="100px" width="10px" src="/images/Cuerda2.png" />
+        </div>
+        <div class="ContainerTextAhorcado">
+          <div style="display:flex; gap: 3rem;">
+            <h1 class="Text">A</h1>
+            <h1 class="Text">A</h1>
+            <h1 class="Text">A</h1>
+            <h1 class="Text">A</h1>
+            <h1 class="Text">A</h1>
+            <h1 class="Text">A</h1>
+          </div>
+          <div>
+            <input id="InputGame" class="InputGame" placeholder="Ingrese una letra" />
+          </div>
+        </div>
+        <div class="InputButtons">
+          <a class="a" href="/ahorcado/Game.html">
+            <button class="BtnEncriptar" type="submit">Nuevo Juego</button>
+          </a>
+          <a class="a" href="/Home.html">
+            <button class="BtnDesEncriptar" type="submit">Desistir</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/ahorcado/Game.js"></script>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/styles/IngresoPalabra.module.css"
+      media="screen"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="ContainerAll">
+      <div id="ContainerWord">
+        <div class="ContainerWord">
+          <div>
+            <img src="/images/a.png" alt="" />
+          </div>
+          <div class="ContainerInput">
+            <input
+              name=""
+              id="inputWord"
+              placeholder="Ingrese el texto aqui"
+              class="Input"
+              required
+              maxlength="8"
+              style="background-color: transparent"
+            ></input>
+            <div
+              style="
+                font-size: medium;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 2rem;
+              "
+            >
+              Max 8 letras
+            </div>
+            <div class="InputButtons">
+              <button class="BtnEncriptar" id="btnWord" onclick="{GetWordGame()}">
+                Guardar y Empezar
+              </button>
+              <a class="BtnDesEncriptar" href="/Home.html"> Cancelar </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ContainerOculto" id="ContainerGame">
+        <div class="Game">
+          <div>
+            <img src="/images/a.png" alt="" />
+          </div>
+          <div class="ContainerAhorcado">
+            <div class="ContainerImg">
+
+            </div>
+            <div class="ContainerTextAhorcado">
+              <div id="SecretWord" style="display: flex; gap: 3rem">
+              </div>
+              <div>
+                <input
+                  id="InputGame"
+                  class="InputGame"
+                  placeholder="Ingrese una letra"
+                />
+              </div>
+            </div>
+            <div class="InputButtons">
+              <a class="a" href="/ahorcado/IngresoPalabra.html">
+                <button class="BtnEncriptar">Nuevo Juego</button>
+              </a>
+              <a class="BtnDesEncriptar" href="/Home.html"> Cancelar </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/ahorcado/Game.js"></script>
+</html>
